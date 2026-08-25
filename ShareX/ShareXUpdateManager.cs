@@ -35,7 +35,7 @@ namespace ShareX
         {
             if (UpdateChannel == UpdateChannel.Dev)
             {
-                return new GitHubUpdateChecker("saitaskar", "cryshare")
+                return new GitHubUpdateChecker("crymetr", "cryshare")
                 {
                     IsDev = true,
                     IsPortable = Program.Portable,
@@ -44,7 +44,7 @@ namespace ShareX
             }
             else
             {
-                return new GitHubUpdateChecker("saitaskar", "cryshare")
+                return new GitHubUpdateChecker("crymetr", "cryshare")
                 {
                     IsPortable = Program.Portable,
                     IncludePreRelease = UpdateChannel == UpdateChannel.PreRelease,

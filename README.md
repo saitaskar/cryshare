@@ -10,7 +10,7 @@ It is licensed under the **GNU General Public License v3**, same as ShareX. See 
 
 Grab the latest installer from the releases page:
 
-**https://github.com/saitaskar/cryshare/releases/latest**
+**https://github.com/crymetr/cryshare/releases/latest**
 
 Under **Assets**, download and run `CryShare-<version>-setup-x64.exe`. It installs to its own
 `Program Files\CryShare` and stores settings in `Documents\CryShare`, so it never touches an
@@ -29,7 +29,7 @@ The installer is unsigned, so Windows SmartScreen shows a warning the first time
 
 ## Auto-update
 
-CryShare checks `github.com/saitaskar/cryshare` releases on startup (same mechanism ShareX
+CryShare checks `github.com/crymetr/cryshare` releases on startup (same mechanism ShareX
 uses for itself, just repointed). Pushing a `vX.Y.Z` tag triggers CI, which builds the
 `Release x64` setup and portable zip and publishes them as a GitHub Release. The running app
 sees the new `vX.Y.Z` tag, downloads `CryShare-X.Y.Z-setup-x64.exe`, and updates itself.

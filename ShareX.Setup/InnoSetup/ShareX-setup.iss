@@ -16,8 +16,8 @@
 #define MyAppFileName MyAppProjectName + ".exe"
 #define MyAppFilePath MyAppReleaseDirectory + "\" + MyAppFileName
 #define MyAppVersion GetStringFileInfo(MyAppFilePath, "ProductVersion")
-#define MyAppPublisher "Sait Askar"
-#define MyAppURL "https://github.com/saitaskar/cryshare"
+#define MyAppPublisher "CryMe"
+#define MyAppURL "https://github.com/crymetr/cryshare"
 #define MyAppId "C27A5E10-1B3D-4F8A-9C6E-7A2D4B8F1E30"
 
 [Setup]

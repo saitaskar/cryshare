@@ -6,6 +6,19 @@ the ShareX Team. This fork exists so I can tweak defaults and behavior for my ow
 
 It is licensed under the **GNU General Public License v3**, same as ShareX. See `LICENSE.txt`.
 
+## Download / Install
+
+Grab the latest installer from the releases page:
+
+**https://github.com/saitaskar/cryshare/releases/latest**
+
+Under **Assets**, download and run `CryShare-<version>-setup-x64.exe`. It installs to its own
+`Program Files\CryShare` and stores settings in `Documents\CryShare`, so it never touches an
+existing ShareX install. Prefer no installer? Use the `-portable-x64.zip` instead.
+
+The installer is unsigned, so Windows SmartScreen shows a warning the first time. Click
+**More info -> Run anyway**.
+
 ## What's different from ShareX
 
 - Rebranded to CryShare (window title, tray, installer, Start Menu).

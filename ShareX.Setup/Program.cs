@@ -82,8 +82,8 @@ namespace ShareX.Setup
         private static string InnoSetupDir => Path.Combine(SetupDir, "InnoSetup");
         private static string MicrosoftStorePackageFilesDir => Path.Combine(SetupDir, "MicrosoftStore");
 
-        private static string SetupPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-setup-{Platform}.exe");
-        private static string PortableZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-portable-{Platform}.zip");
+        private static string SetupPath => Path.Combine(OutputDir, $"CryShare-{AppVersion}-setup-{Platform}.exe");
+        private static string PortableZipPath => Path.Combine(OutputDir, $"CryShare-{AppVersion}-portable-{Platform}.zip");
         private static string DebugZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-debug-{Platform}.zip");
         private static string SteamUpdatesDir => Path.Combine(SteamOutputDir, "Updates");
         private static string SteamZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-Steam-{Platform}.zip");

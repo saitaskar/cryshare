@@ -1,4 +1,5 @@
-#define MyAppName "ShareX"
+#define MyAppName "CryShare"
+#define MyAppProjectName "ShareX"
 #ifndef Platform
   #define Platform "x64"
 #endif
@@ -11,16 +12,16 @@
 #endif
 #define MyAppRootDirectory "..\.."
 #define MyAppOutputDirectory MyAppRootDirectory + "\Output"
-#define MyAppReleaseDirectory MyAppRootDirectory + "\" + MyAppName + "\bin\Release\" + RuntimeId
-#define MyAppFileName MyAppName + ".exe"
+#define MyAppReleaseDirectory MyAppRootDirectory + "\" + MyAppProjectName + "\bin\Release\" + RuntimeId
+#define MyAppFileName MyAppProjectName + ".exe"
 #define MyAppFilePath MyAppReleaseDirectory + "\" + MyAppFileName
 #define MyAppVersion GetStringFileInfo(MyAppFilePath, "ProductVersion")
-#define MyAppPublisher "ShareX Team"
-#define MyAppURL "https://getsharex.com"
-#define MyAppId "82E6AC09-0FEF-4390-AD9F-0DD3F5561EFC"
+#define MyAppPublisher "Sait Askar"
+#define MyAppURL "https://github.com/saitaskar/cryshare"
+#define MyAppId "C27A5E10-1B3D-4F8A-9C6E-7A2D4B8F1E30"
 
 [Setup]
-AppCopyright=Copyright (c) 2007-2026 ShareX Team
+AppCopyright=CryShare is a personal fork of ShareX (GPL v3). Copyright (c) 2007-2026 ShareX Team
 AppId={#MyAppId}
 AppMutex={#MyAppId}
 AppName={#MyAppName}
@@ -47,9 +48,9 @@ VersionInfoVersion={#MyAppVersion}
 
 [Tasks]
 Name: "CreateDesktopIcon"; Description: "Create a desktop shortcut"; GroupDescription: "Additional shortcuts:"; Check: not IsUpdating and not DesktopIconExists
-Name: "CreateContextMenuButton"; Description: "Show ""Upload with ShareX"" button in Windows Explorer context menu"; GroupDescription: "Additional shortcuts:"; Check: not IsUpdating
+Name: "CreateContextMenuButton"; Description: "Show ""Upload with CryShare"" button in Windows Explorer context menu"; GroupDescription: "Additional shortcuts:"; Check: not IsUpdating
 Name: "CreateSendToIcon"; Description: "Create a send to shortcut"; GroupDescription: "Additional shortcuts:"; Check: not IsUpdating
-Name: "CreateStartupIcon"; Description: "Run ShareX when Windows starts"; GroupDescription: "Other tasks:"; Check: not IsUpdating
+Name: "CreateStartupIcon"; Description: "Run CryShare when Windows starts"; GroupDescription: "Other tasks:"; Check: not IsUpdating
 Name: "EnableBrowserExtensionSupport"; Description: "Enable browser extension support"; GroupDescription: "Other tasks:"; Check: not IsUpdating
 Name: "DisablePrintScreenKeyForSnippingTool"; Description: "Disable Print Screen key for Snipping Tool"; GroupDescription: "Other tasks:"; Check: not IsUpdating
 

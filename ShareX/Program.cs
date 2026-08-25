@@ -51,8 +51,8 @@ namespace ShareX
 {
     internal static class Program
     {
-        public const string AppName = "ShareX";
-        public const string MutexName = "82E6AC09-0FEF-4390-AD9F-0DD3F5561EFC";
+        public const string AppName = "CryShare";
+        public const string MutexName = "C27A5E10-1B3D-4F8A-9C6E-7A2D4B8F1E30";
         public static readonly string PipeName = $"{Environment.MachineName}-{Environment.UserName}-{AppName}";
 
         public const ShareXBuild Build =
